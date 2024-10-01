@@ -2,7 +2,7 @@ A simple yet engaging Tic Tac Toe game built with HTML, CSS, and JavaScript. Thi
 
 Turn Timer: Each player has a limited time to make their move.
 
-Sound Effects: Enjoy immersive audio feedback for each move, win, and draw.
+Sound Effects: Enjoy immersive audio feedback for each win, and draw.
 
 Win Detection: Automatic checks for winners after each turn.
 
