@@ -16,13 +16,13 @@ body {
 }
 
 .game {
-    height: 60vmin; /*viewport minimum*/
+    height: 60vmin; 
     width: 60vmin;
     gap: 1.5vmin;
     justify-content: center;
     align-items: center;
-    display: flex; /* saare box single line m */
-    flex-wrap: wrap; /* ek line m jgh ni h toh next m aa jao */
+    display: flex;
+    flex-wrap: wrap; 
 }
 
 .box {
@@ -34,12 +34,12 @@ body {
     font-size: 8vmin;
     color: #b0413e;
     background-color: bisque;
-    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+    transition: background-color 0.3s ease, transform 0.2s ease; 
 }
 
 .box:hover {
-    background-color: rgba(255, 200, 150, 0.7); /* Lighten on hover */
-    cursor: pointer; /* Change cursor to pointer */
+    background-color: rgba(255, 200, 150, 0.7); 
+    cursor: pointer; 
 }
 
 #reset, #newBtn {
@@ -49,11 +49,11 @@ body {
     color: white;
     border-radius: 1rem;
     border: none;
-    transition: background-color 0.3s ease; /* Smooth transition */
+    transition: background-color 0.3s ease; 
 }
 
 #reset:hover, #newBtn:hover {
-    background-color: rgb(180, 40, 100); /* Slightly darker on hover */
+    background-color: rgb(180, 40, 100); 
 }
 
 #msg {
@@ -72,10 +72,10 @@ body {
 }
 
 #timer {
-    padding: 0.5rem; /* Add some padding for better appearance */
-    background-color: rgba(255, 255, 255, 0.7); /* Light background for contrast */
-    border-radius: 0.5rem; /* Rounded corners */
-    margin-bottom: 2rem; /* Space below the timer */
+    padding: 0.5rem; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 0.5rem;
+    margin-bottom: 2rem; 
 }
 
 .hide {
